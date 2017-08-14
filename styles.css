@@ -5,6 +5,10 @@
   position:relative;
   padding-left: 38%;
 }
+.navbar .nav{
+  padding-right: 5%;
+  color: #f16e3a;
+}
 
 
 .btn-lg.round {
@@ -34,9 +38,9 @@
   
 .btn-lg {
   font-size: 18px;
-  line-height: 1.33;
-  border-radius: 6px;
-  color: #f16e3a;
+  line-height: 3;
+  border-radius: 12px;
+  color: white;
   background-color: #f16e3a;
   border-color: #f16e3a;
 }
