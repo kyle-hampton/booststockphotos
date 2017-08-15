@@ -1,3 +1,6 @@
+.active{
+  color: #f16e3a;
+}
 
 .brand-logo{
   width: 343px; 
@@ -109,4 +112,14 @@ ul{
   height: 80%;
   background-color: #f16e3a;
   background-position:  bottom 500px;
+}
+.box-text{
+  position: relative;
+  padding-left: 25%;
+}
+.email-form{
+  position: relative;
+  padding-left: 45%;
+  width: 518px;
+  height: 50px;
 }
