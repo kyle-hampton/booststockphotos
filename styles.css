@@ -4,7 +4,7 @@
 
 
 .brand-logo{
-  width: 343px; 
+  width: 343px;
   height: 112px;
   position:relative;
   padding-left: 38%;
@@ -23,7 +23,7 @@
   display: inline-block;
   padding: 6px 12px;
   margin-bottom: 0;
-  font-size: 14px;
+  font-size: 8px;
   font-weight: normal;
   line-height: 1.42857143;
   text-align: center;
@@ -37,16 +37,17 @@
   background-image: none;
   border: 1px solid transparent;
   border-radius: 4px;
-  padding: 10px 16px; 
+  padding: 10px 16px;
 }
-  
+
 .btn-lg {
-  font-size: 24px;
-  line-height: 15;
+  font-size: 20px;
+  line-height: 2px;
   border-radius: 100px;
   color: white;
   background-color: #f16e3a;
   border-color: #f16e3a;
+  padding-top: 10px;
 }
 
 .btn-primary {
@@ -77,7 +78,7 @@
   padding-left: 21%;
 }
 #row1, #row2, #row3, #row4, #row5, #row6{
-  
+
 }
 
 li{
@@ -93,9 +94,9 @@ ul{
 }
 
 .b{
-  position: relative;
+  /*position: relative;*/
   padding-left: 35%;
-  
+
 }
 .c{
   position: relative;
@@ -122,7 +123,7 @@ ul{
   position: relative;
   padding-left: 33%;
   width: 518px;
-  
+
 }
 #email{
   width: 518px;
