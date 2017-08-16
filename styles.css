@@ -138,3 +138,10 @@ ul{
   position: relative;
   padding-left: 42%;
 }
+.e{
+  position: left;
+  padding-left: 65%;
+}
+#bottom-link{
+  padding: 35px;
+}
