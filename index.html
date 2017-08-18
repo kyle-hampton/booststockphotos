@@ -14,19 +14,18 @@
 
       <div>
           <a class="navbar-brand" href="#"><img src="img/boost-linguistics-master-logo-color.png" class="Boost-Linguistics-Master-Logo_Color" width="157px" height="72px"></a>
-          <div class="">
-            <ul class="nav navbar-nav navbar-right" >
-              <li class="active"><a href="#">Content Resources</a></li>
-              <li><a href="#">About Us</a></li>
-              <li><a href="#">Blog</a></li>
-              <li><a href="#">Sign in</a></li>
+          <div>
+            <ul class="nav navbar-nav navbar-right" id="navbar" >
+              <li class="active" id="nav"><a href="#">Content Resources</a></li>
+              <li id="nav"><a href="#">About Us</a></li>
+              <li id="nav"><a href="#">Blog</a></li>
+              <li id="nav"><a href="#">Sign in</a></li>
               <li class="btn btn-lg round" id="sign-up">Sign up</li>
             </ul>
           </div>
 
       </div>
         <div class="brand-logo">
-
           <img src="./img/bsp-logo.png"  width="343px" height="112px">
         </div>
         <div class="row"><!-- Use rows to define new sections -->
@@ -36,65 +35,65 @@
             </div>
           </div>
           <div class="row">
+           <div class="img">
             <div class="col-md-6">
-              <img src="./img/food.png"><h3>Food</h3>
+              <img src="./img/food.png" id="img"><h3 id="h3">Food</h3>
             </div>
             <div class="col-md-6">
-              <img src="./img/people.png"><h3>People</h3>
+              <img src="./img/people.png" id="img"><h3 id="h3">People</h3>
             </div>
+            <div class="col-md-6">
+              <img src="./img/nature.png" id="img"><h3 id="h3">Nature</h3>
+            </div>
+            <div class="col-md-6">
+              <img src="./img/travel.png" id="img"><h3 id="h3">Travel</h3>
+            </div>
+            <div class="col-md-6">
+              <img src="./img/skyline.png" id="img"><h3 id="h3-bottom">Skyline</h3>
+            </div>
+            <div class="col-md-6">
+              <img src="./img/city.png"id="img"><h3 id="h3-bottom">City</h3>
+            </div>
+           </div>
           </div>
-
-
-          <ul id="row1">
-            <li><img src="./img/food.png"><h3>Food</h3></li>
-          </ul>
-          <ul id="row2">
-            <li><img src="./img/people.png"><h3>People</h3></li>
-          </ul>
-          <ul id="row3">
-            <li><img src="./img/nature.png"><h3>Nature</h3></li>
-          </ul>
-          <ul id="row4">
-            <li><img src="./img/travel.png"><h3>Travel</h3></li>
-          </ul>
-          <ul id="row5">
-            <li><img src="./img/skyline.png"><h3>Skyline</h3></li>
-          </ul>
-          <ul id="row6">
-            <li><img src="./img/city.png"><h3>City</h3></li>
-          </ul>
         </div>
 
 <!---------------------->
 <!----Orange banner---->
         <div id="rectangle">
          <div class="box-text">
-           <br><br><br>
-           <ul>
+           <div class="row">
+             <div class="orange-text">
+             <ul>
              <li><h1>Sign up to receive new photos every week</h1></li>
-           </ul>
+             </ul>
+          </div>
          </div>
-          <br><br><br><br><br><br>
+         </div>
+          <div class="row">
           <div class="email-form">
            <form>
             <input type="text" id="email" name="Email address" placeholder="Email address">
            </form>
           </div>
-           <br><br>
+          </div>
+           <div class="row">
           <div class="send-button">
             <ul>
-              <li id="send-button" class="btn btn-lg round">Send me photos</li>
+              <li id="send-button" class="btn btn-lg round" >Send me photos</li>
             </ul>
           </div>
          </div>
+      </div>
 <!---------------------->
-      <br>
+      <div class="row">  
       <div class="b">
           <ul>
             <li><h3>Shared freely with love from Philly</h3></li>
         </ul>
       </div>
-        <br><br><br><br><br>
+      </div>
+        <div class="row">
           <div class="c">
             <ul>
               <li id="domain"><img src="./img/bsp-public-domain.png" width="168px" height="69px"></li>
@@ -106,16 +105,18 @@
                 </p></li>
             </ul>
            </div>
-      <br><br><br><br><br><br><br><br><br><br>
+      </div>
+      <div class="row">
           <div class="d">
             <ul>
-              <li id="location"><p>Boost Linguistics<br>
-                           3230 Market St.<br>
+              <li id="location"><p id="bold">Boost Linguistics</p>
+                           <p>3230 Market St.<br>
                            4th Floor<br>
                            Philadelphia, PA 19104
                 </p></li>
             </ul>
             </div>
+      
             <div class="e">
               <ul>
               <li id="bottom-link">
@@ -132,7 +133,7 @@
                 </li>
             </ul>
            </div>
-
+      </div>
 
 
     </Body>
