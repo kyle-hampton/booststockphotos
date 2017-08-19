@@ -46,7 +46,7 @@ h1{
   width: 343px;
   height: 112px;
   padding-left: 38%;
-  padding-top: 10%;
+  padding-top: 5%;
 }
 
 #img{
@@ -72,6 +72,7 @@ a:hover{
   height: auto;
   transition: .5s ease;
   backface-visibility: hidden;
+  cursor: pointer;
 }
 
 .middle {
@@ -99,6 +100,26 @@ a:hover{
   font-size: 16px;
   padding: 16px 32px;
 
+}
+.button {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
 
 .btn-lg.round {
@@ -246,11 +267,12 @@ ul{
   font-family: Rubik;
   font-size: 20px;
   font-weight: 500;
+  padding-bottom: -10px;
 }
 
 .d{
   padding-top: 10%;
-  padding-left: 60px;
+  padding-left: 40px;
    font-family: OpenSans;
   font-size: 18px;
   text-align: left;
